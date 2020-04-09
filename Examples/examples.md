@@ -1,4 +1,6 @@
-./ex_01
+### ex_01
+
+```c++
 #include <iostream>
 using namespace std;
 
@@ -49,8 +51,13 @@ output:
 3	3	8
 3	4	7
 3	5	9
-------------------------------------------------------------
-ex_02
+```
+
+---
+
+### ex_02
+
+```c++
 // C++ Program to find factorial of a number
 // Factorial on n = 1*2*3*...*n
 
@@ -71,12 +78,20 @@ int main()
     cout<< "Factorial of "<<n<<" = "<<factorial;
     return 0;
 }
+
 output:
 Enter a positive int:
 9
 Factorial of 9 = 362880
----------------------------------------------------------------------------
-ex_03
+
+```
+
+---
+
+### ex_03
+
+```c++
+
 // C++ Program to compute factorial of a number
 // Factorial of n = 1*2*3...*n
 
@@ -102,8 +117,15 @@ output:
 Enter a positive int:
 5
 Factorial of 5 = 120
----------------------------------------------------------------------------
-ex_04
+
+```
+
+---
+
+
+### ex_04
+
+```c++
 // C++ Program to demonstrate working of break statement
 
 #include <iostream>
@@ -132,6 +154,7 @@ int main() {
 
     return 0;
 }
+
 output:
 Enter a number: 1
 Enter a number: 2
@@ -145,8 +168,16 @@ Enter a number: 9
 Enter a number: 10
 Enter a number: 0
 Sum = 55
----------------------------------------------------------------------------
-ex_05
+
+```
+
+---
+
+
+### ex_05
+
+```c++
+
 // Program to built a simple calculator using switch Statement
 
 #include <iostream>
@@ -185,13 +216,23 @@ int main()
     
     return 0;
 }
+
+
 output:
 Enter an operator (+, -, *, /): *
 Enter two operands: 5
 5
 5 * 5 = 25
----------------------------------------------------------------------------
-ex_06
+
+```
+
+---
+
+
+### ex_06
+
+```c++
+
 // This program calculates the average of numbers entered by user.
 // If user enters negative number, it ignores the number and 
 // calculates the average of number entered before it.
@@ -225,6 +266,7 @@ jump:
     cout << "\nAverage = " << average;
     return 0;
 }
+
 output:
 Maximum number of inputs: 10
 Enter n1: 3
@@ -238,8 +280,15 @@ Enter n8: 4
 Enter n9: 3
 Enter n10: 2
 Average = 13.6
----------------------------------------------------------------------------
-ex_07
+
+```
+
+---
+
+
+### ex_07
+
+```c++
 #include <iostream>
 #include <cmath>
 
@@ -256,11 +305,18 @@ int main()
     cout << "Square root of " << number << " = " << squareRoot;
     return 0;
 }
+
 output:
 Enter a number: 7
 Square root of 7 = 2.64575
----------------------------------------------------------------------------
-ex_08
+
+```
+
+---
+
+### ex_08
+
+```c++
 # include <iostream>
 using namespace std;
 
@@ -301,11 +357,20 @@ void prime()
         cout << num << " is a prime number.";
     }
 }
+
 output:
 Enter a positive integer enter to check: 7
 7 is a prime number.
----------------------------------------------------------------------------
-ex_09
+
+```
+
+---
+
+
+### ex_09
+
+```c++
+
 #include <iostream>
 using namespace std;
 
@@ -337,12 +402,21 @@ void display(int var1, float var2) {
     cout << "Integer number: " << var1;
     cout << " and float number:" << var2;
 }
+
 output:
 Integer number: 5
 Float number: 5.5
 Integer number: 5 and float number:5.5
----------------------------------------------------------------------------
-ex_10
+
+```
+
+---
+
+
+### ex_10
+
+```c++
+
 #include <iostream>
 using namespace std;
 
@@ -377,6 +451,7 @@ int main() {
   cout << "Max ist: " << max << "\n";
   return 0;
 }
+
 output:
 Gib 10 Zhalen ein!1
 1
@@ -402,8 +477,14 @@ Durchschnitt ist: 4.5
 Min ist: 1
 Max ist: 766
 
----------------------------------------------------------------------------
-ex_11
+```
+
+---
+
+### ex_11
+
+```c++
+
 #include <iostream>
 using namespace std;
 
@@ -424,6 +505,7 @@ int main()
     
     return 0;
 }
+
 output:
 Enter 5 numbers: 
 1
@@ -432,8 +514,15 @@ Enter 5 numbers:
 5
 5
 Sum = 13
----------------------------------------------------------------------------
-ex_12
+
+```
+---
+
+
+### ex_12
+
+```c++
+
 #include <iostream>
 using namespace std;
 
@@ -452,11 +541,20 @@ int main() {
     cout << "Output String: " << line << endl;    
     return 0;
 }
+
 output:
 Enter a string: I_l98-3v_0_m
 Output String: Ilvm
----------------------------------------------------------------------------
-ex_13
+
+```
+
+---
+
+### ex_13
+
+```c++
+
+
 #include <iostream>
 using namespace std;
 
@@ -479,11 +577,21 @@ int main() {
     cout << "Output String: " << alphabetString << endl;    
     return 0;
 }
+
+
 output:
 Enter a string: _a.**b_##c000_d44
 Output String: abcd
----------------------------------------------------------------------------
-ex_14
+
+```
+
+---
+
+
+### ex_14
+
+```c++
+
 #include <iostream>
 using namespace std;
 
@@ -503,12 +611,20 @@ int main()
 
     return 0;
 }
+
 output:
 Enter string s1: C++ Programming
 Enter string s2:   is awesome.
 Resultant String = C++ Programming  is awesome.
----------------------------------------------------------------------------
-ex_15
+
+```
+
+---
+
+### ex_15
+
+```c++
+
 #include <iostream>
 using namespace std;
 
@@ -522,51 +638,9 @@ int main()
 
     return 0;
 }
+
 output:
 Enter ur Name: Jackie Jackie
 Ur Name = Jackie Jackie
----------------------------------------------------------------------------
-ex_16
-output:
----------------------------------------------------------------------------
-ex_17
-output:
----------------------------------------------------------------------------
-ex_18
-output:
----------------------------------------------------------------------------
-ex_19
-output:
----------------------------------------------------------------------------
-ex_20
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-ex_
-output:
----------------------------------------------------------------------------
-
-
-
-
-
-
-
-
+```
+----
