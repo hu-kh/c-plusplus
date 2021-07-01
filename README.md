@@ -1,1 +1,1 @@
-### Schul-Projekt & Basic Examples written in C++
+### BSZ Schul-Projekt & Basic Examples written in C++
